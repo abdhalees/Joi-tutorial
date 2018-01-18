@@ -1,0 +1,46 @@
+{{#if err}}
+<p class ='err'>{{err}}</p>
+{{/if}}
+
+<div>
+  <form class="form" action="/signup" method="post">
+    <label>
+      Username:
+  <input type="text" name="username" required >
+  </label>
+    <label>
+      Password:
+  <input type="password" name="password" minlength="4" required>
+  </label>
+    <label>
+      Confirm Password:
+      <input type="password" name="confirmPassword" minlength="4" required>
+      </label>
+    <label>
+      Email:
+  <input type="email" name="email" required>
+  </label>
+    <label>
+      Age:
+      <input type="number" name="age" min="13">
+    </label>
+    <label>
+    Birthdate:
+      <input type="date" name="birthdate" >
+    </label>
+    <label>
+    Your first language?
+    <select name="firstLang">
+      <option value="ar"> Arabic </option>
+      <option value="en"> English </option>
+    </select>
+  </label> Are available for work?
+    <label>
+      <select name="availablity" >
+        <option value="true"> Yes </option>
+        <option value="false"> No </option>
+      </select>
+    </label>
+    <input type="submit"></input>
+  </form>
+</div>

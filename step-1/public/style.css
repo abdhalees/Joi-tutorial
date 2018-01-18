@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+input {
+  margin: 5px;
+}
+
+select {
+  margin: 5px;
+}
+
+label {
+  float: left;
+  width: 10em;
+  margin-right: 1em;
+}
+
+.sucess {
+  color: green;
+}

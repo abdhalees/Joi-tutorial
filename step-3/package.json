@@ -1,0 +1,22 @@
+{
+  "name": "step-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "watch": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "joi": "^13.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
