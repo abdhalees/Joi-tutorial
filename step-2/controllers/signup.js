@@ -20,5 +20,5 @@ exports.post = (req, res) => {
   if (!languages.includes(firstLang)) return res.status(400).render('form', {err: 'not a valid language'});
   if (availablity !== 'true' && availablity !== 'false') return res.status(400).render('form', {err: 'availbilty is not boolean'});
 
-  res.redirect('/');
+  res.render('form', {success: 'user added succefully'});
 };
