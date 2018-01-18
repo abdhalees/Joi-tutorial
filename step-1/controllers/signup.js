@@ -4,5 +4,5 @@ exports.get = (req, res) => {
 
 exports.post = (req, res) => {
   console.log(req.body);
-  res.render('form', {sucess: 'user added succefully'});
+  res.render('form', {success: 'user added succefully'});
 };
