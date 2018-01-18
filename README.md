@@ -2,8 +2,8 @@
 
 a small example of server side validation middleware in nodejs with express using [Joi](https://www.npmjs.com/package/joi) - a validator for JavaScript objects -
 
-- this workshop is meant to be a codealong so if you just want to see a working exapmple go directly to step-3.
-- handlebares is used for rendering.
+- this workshop is meant to be a code-along so if you just want to see a working example go directly to step-3.
+- handlebars is used for rendering.
 
 ### step-1
 Just basic express file structure with an example of a signup form that has html input validations and a controller that only logs the request body.
